@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="643" height="204" viewBox="0 0 643 204">
+    <defs>
+        <filter id="pwlcaijd9a" width="500%" height="1480%" x="-200%" y="-690%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="46"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0786254689 0 0 0 0 0.163205899 0 0 0 0 0.217561141 0 0 0 0.608500874 0"/>
+        </filter>
+        <text id="7xkgwixdfb" fill="#FFF" font-family="SpaceGrotesk-SemiBold, Space Grotesk" font-size="16" font-weight="500" letter-spacing=".145">
+            <tspan x="0" y="15">VIEW ALL</tspan>
+        </text>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <text fill="#FFF" font-family="SpaceGrotesk-Regular, Space Grotesk" font-size="22" letter-spacing=".275" transform="translate(-95 -92) translate(95 183)">
+                    <tspan x="0" y="21">UPCOMING APPOINTMENTS</tspan>
+                </text>
+                <g>
+                    <g fill="#FFF" transform="translate(-95 -92) translate(95 183) translate(482 1)">
+                        <use filter="url(#pwlcaijd9a)" xlink:href="#7xkgwixdfb"/>
+                        <use xlink:href="#7xkgwixdfb"/>
+                    </g>
+                    <path stroke="#FFF" stroke-linecap="square" d="M0 20.5L68.384 20.5" transform="translate(-95 -92) translate(95 183) translate(482 1)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

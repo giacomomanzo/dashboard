@@ -1,0 +1,145 @@
+#body {
+  height: 100vh;
+  width: 100%;
+  background: url("images/background.jpg");
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.first-container {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 65px;
+  height: 65px;
+  border-radius: 40px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.first{
+    background-color: white;
+}
+
+.ico-img {
+    width: 60%;
+    height: 60%;
+  }
+
+.date{
+  font-size: 20px;
+  color: white;
+  align-self: center;
+}
+
+.lr-logo {
+    width: 20%;
+    height: 100%;
+  }
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+.second-container {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  justify-content: space-evenly;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.events {
+  width: 100%;
+  margin-bottom: -50px;
+  margin-top: -80px;
+}
+
+.highlight {
+  height: 20%;
+  width: 20%;
+  margin-bottom: 30px;
+}
+
+.card {
+    height: 400px;
+    width: 600px;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+.hour-day {
+    align-self: center;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .blur {
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+      background-color: rgba(61, 61, 61, 0.164);
+    }
+  }
+
+
+  .day{
+      width: 100%;
+      height: 100%;
+  }
+
+  .prova {
+    height: 100%;
+    width: 100%;
+  }
+
+  .initiative {
+    margin-left: 60px;
+    padding: 20px;
+  }
+
+  .slider {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 75px;
+  }
+
+  .cards {
+    height: 70%;
+    width: 50%;
+  }
+
+  .info {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+  }
+

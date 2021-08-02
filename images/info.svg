@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="356" height="21" viewBox="0 0 356 21">
+    <g fill="none" fill-rule="evenodd" font-family="SpaceGrotesk-Regular, Space Grotesk" font-size="16" letter-spacing=".2">
+        <g fill="#FFF" fill-rule="nonzero">
+            <g>
+                <text transform="translate(-1516 -1011) translate(1516 1011)">
+                    <tspan x=".664" y="15">Doors</tspan>
+                </text>
+                <text transform="translate(-1516 -1011) translate(1516 1011)">
+                    <tspan x="75.232" y="15">Wishlist</tspan>
+                </text>
+                <text transform="translate(-1516 -1011) translate(1516 1011)">
+                    <tspan x="164.488" y="15">Cart</tspan>
+                </text>
+                <text transform="translate(-1516 -1011) translate(1516 1011)">
+                    <tspan x="226.984" y="15">Codice di Combo</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

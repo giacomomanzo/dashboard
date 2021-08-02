@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="258" viewBox="0 0 380 258">
+    <defs>
+        <filter id="3jl2zz8ela" width="677.5%" height="1104.3%" x="-288.8%" y="-502.2%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="38.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+        <filter id="oggl0nbggc" width="741.7%" height="1104.3%" x="-320.8%" y="-502.2%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="38.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+        <filter id="k9j6tt7g5e" width="1062.5%" height="1104.3%" x="-481.2%" y="-502.2%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="38.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+        <text id="nzpib3dwbb" fill="#FFF" font-family="SpaceGrotesk-Regular, Space Grotesk" font-size="18" font-weight="normal" letter-spacing=".54">
+            <tspan x="233" y="174">MAR</tspan>
+        </text>
+        <text id="0hdjlowugd" fill="#FFF" font-family="SpaceGrotesk-Regular, Space Grotesk" font-size="18" font-weight="normal" letter-spacing=".54">
+            <tspan x="83.361" y="174.098">SUN</tspan>
+        </text>
+        <text id="3bla438bif" fill="#FFF" font-family="SpaceGrotesk-Regular, Space Grotesk" font-size="18" font-weight="normal" letter-spacing=".72">
+            <tspan x="161.381" y="174">04</tspan>
+        </text>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#FFF">
+            <g>
+                <g font-family="SpaceGrotesk-Light, Space Grotesk" font-weight="300">
+                    <g>
+                        <text font-size="130" letter-spacing="3.25" transform="translate(-788 -308) translate(788 308)">
+                            <tspan x=".005" y="123">12</tspan>
+                        </text>
+                        <text font-size="100" letter-spacing="2.5" transform="translate(-788 -308) translate(788 308)">
+                            <tspan x="162.15" y="120">:</tspan>
+                        </text>
+                        <text font-size="130" letter-spacing="3.25" transform="translate(-788 -308) translate(788 308)">
+                            <tspan x="213.82" y="123">06</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g transform="translate(-788 -308) translate(788 308)">
+                    <use filter="url(#3jl2zz8ela)" xlink:href="#nzpib3dwbb"/>
+                    <use xlink:href="#nzpib3dwbb"/>
+                </g>
+                <g transform="translate(-788 -308) translate(788 308)">
+                    <use filter="url(#oggl0nbggc)" xlink:href="#0hdjlowugd"/>
+                    <use xlink:href="#0hdjlowugd"/>
+                </g>
+                <g transform="translate(-788 -308) translate(788 308)">
+                    <use filter="url(#k9j6tt7g5e)" xlink:href="#3bla438bif"/>
+                    <use xlink:href="#3bla438bif"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
