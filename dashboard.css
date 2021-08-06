@@ -1,4 +1,4 @@
-#body {
+body {
   height: 100vh;
   width: 100%;
   background: url("images/background.jpg");
@@ -19,9 +19,17 @@ header {
   }
 }
 
+@font-face {
+  font-family: avenir;
+  src: url("fonts/avenir/AvenirLTStd-Black.woff");
+  font-family: space-grotesck;
+  src: url("fonts/space-grotesk/SpaceGrotesk-Regular.woff");
+  font-family: avenir-roman;
+  src: url("fonts/avenir/roman/Avenir-Roman.woff");
+}
+
 p {
   color: white;
-  padding: 20px;
   font-size: 20px;
 }
 
@@ -29,7 +37,15 @@ p {
   width: 20%;
   height: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+}
+
+.first-txt {
+  margin-top: 35px;
+  margin-left: -30px;
+  font-family: space-grotesck;
+  color: rgb(194, 194, 194);
 }
 
 .logo {
@@ -78,6 +94,11 @@ p {
 .menu {
   display: flex;
   flex-direction: column;
+  gap: 15px;
+}
+
+.view-all {
+  border-bottom: 2px solid white;
 }
 
 .txt-container {
@@ -110,57 +131,67 @@ p {
 
 .th-txt {
   position: absolute;
-  left: 85px;
+  left: 107px;
+  margin-top: 30px;
   font-size: 15px;
 }
 
 .sub-container {
   display: flex;
   flex-direction: column;
-  text-align: start;
+  gap: 40px;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .n,
 .n1 {
   font-size: 60px;
+  margin-top: 20px;
 }
 
 .m,
 .m1 {
   font-size: 20px;
-  margin-top: -40px;
-  margin-left: 12px;
 }
 
 .public-private-txt {
   font-size: 15px;
-  color: rgb(48, 49, 49);
+  color: rgb(194, 194, 194);
 }
 
 .brand-name-ev {
   margin-top: -25px;
+  font-family: avenir;
 }
 
 .event-hour-txt {
   font-size: 15px;
   margin-top: -30px;
-  color: rgb(48, 49, 49);
+  color: rgb(194, 194, 194);
 }
 
 .programme-txt {
-  font-size: 10px;
+  font-size: 7px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid white;
   align-self: flex-end;
+  font-family: avenir;
 }
 
 .brand-txt {
-  font-size: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid white;
   align-self: flex-end;
+  font-family: avenir;
 }
 
 .card-icon {
-  width: 20%;
-  height: 50%;
-  border-radius: 80px;
+  width: 80px;
+  height: 60px;
+  border-radius: 40px;
   background-color: rgb(0, 23, 66);
   align-self: center;
   margin-left: 30px;
@@ -170,8 +201,9 @@ p {
   width: 90%;
   height: 40%;
   border-bottom: 1px solid white;
-  margin-left: 20px;
   display: flex;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .second-date {
@@ -202,35 +234,37 @@ p {
 }
 
 .day {
-  margin-left: 10px;
+  margin: 10px;
+  font-family: space-grotesck;
+  color: rgb(194, 194, 194);
 }
 
 .hour {
   display: flex;
+  margin: 10px;
   justify-content: flex-end;
 }
 
 .clock {
-  margin-right: -20px;
-  height: 30px;
-  align-self: center;
+  height: 23px;
 }
 
 .brand-event {
   height: 40%;
   width: 100%;
-  margin-left: 10px;
-  margin-top: -20px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
 
 .txt1 {
   font-size: 30px;
+  font-family: avenir;
 }
 
 .txt2 {
   font-size: 35px;
-  margin-top: -30px;
+  font-family: avenir;
 }
 
 .container-foot {
@@ -249,13 +283,38 @@ p {
 
 .event-info {
   height: 40%;
-  width: fit-content;
+  width: 90%;
   border-radius: 30px;
   margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.event-info:nth-of-type(1) {
+  height: 40%;
+  width: 40%;
+  border-radius: 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.txt-info1 {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-left: 20px;
+  color: rgb(194, 194, 194);
 }
 
 .txt-info {
   font-size: 15px;
+  padding-top: 20px;
+}
+
+.txt-info:nth-of-type(1) {
+  font-size: 15px;
+  padding: 20px;
 }
 
 .view {
@@ -266,38 +325,47 @@ p {
   text-align: center;
   align-self: center;
   margin-right: 50px;
+  text-decoration: bold;
 }
 
 .view-txt {
   color: black;
   font-size: 15px;
+  padding: 15px;
 }
 
 .initiative {
   margin-left: 60px;
+  width: 40%;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.slider {
+.swiper-container {
   height: 40%;
   width: 100%;
+  display: block;
+}
+
+.swiper-wrapper {
+  height: 80%;
   display: flex;
   flex-direction: row;
   gap: 20px;
   padding-left: 75px;
-  overflow: hidden;
 }
 
-.cards {
-  height: 70%;
-  width: 50%;
+.swiper-slide {
+  min-height: 100%;
+  min-width: 40%;
   border-radius: 10px;
   display: flex;
 }
 
 .mini-card {
   width: 30%;
-  height: 90%;
+  height: 77%;
   margin: 0 0 0 20px;
   margin-top: 10px;
   border-top-left-radius: 10px;
@@ -311,31 +379,41 @@ p {
 .duration {
   align-self: flex-end;
   font-size: 15px;
+  margin: 10px;
 }
 
 .podcast {
   height: 10%;
   align-self: flex-end;
-  margin-bottom: 14px;
-  margin-right: 7px;
+  margin: 7px;
 }
 
 .cards-sub-container {
   height: 100%;
   width: 70%;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .txt-cards1 {
   font-size: 20px;
+  color: rgb(194, 194, 194);
+  font-family: avenir-roman;
 }
 
 .txt-cards2 {
   font-size: 25px;
+  font-family: avenir;
 }
 
-.info {
+.footer-info {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
   position: absolute;
-  bottom: 50px;
+  bottom: 20px;
   right: 0;
 }

@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
+  <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="reset.css" rel="stylesheet" />
   <link href="dashboard.css" rel="stylesheet" />
-  <body leftmargin="0" topmargin="0" id="body">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+  <body>
     <header>
       <div class="first-container">
         <div class="logo blur">
           <img src="images/elements-icon-home.svg" class="ico-img" />
         </div>
-        <p class="date"></p>
+        <p class="first-txt">Tue 9 Jun 2021 12:06</p>
       </div>
       <img
         class="lr-logo"
@@ -93,33 +96,36 @@
             <div class="container-info">
               <div class="event-info blur"><p class="txt-info">PRIVATE</p></div>
               <div class="event-info blur">
-                <p class="txt-info">HOST: BRAND MANAGER</p>
+                <p class="txt-info1">HOST: </p>
+                <p class="txt-info">BRAND MANAGER</p>
               </div>
-            </div>
+              </div>
             <div class="view"><p class="view-txt">VIEW</p></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <img src="images/group-5.svg" class="initiative" />
-    <section class="slider">
-      <div class="cards blur">
-        <div class="mini-card">
-          <p class="duration">12.36 min</p>
-          <img src="images/elements-icon-podcast.svg" class="podcast" />
-        </div>
-        <div class="cards-sub-container">
-          <p class="txt-cards1">08.03.2021</p>
-          <p class="txt-cards2">Luxottica Univeristy</p>
-          <p class="txt-cards1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            expedita, ipsum in nesciunt architecto.
-          </p>
-        </div>
+    <section class="swiper-container mySwiper">
+      <div class="initiative">
+        <p>INITIATIVE</p>
+        <p><  ></p>
       </div>
+      <div class="swiper-wrapper">
+        
+      
+    </div>
+    <div class="slider-pagination"></div>
     </section>
 
-    <img src="images/info.svg" class="info" />
+    <div class="footer-info">
+      <p>Doors</p>
+      <p>Wishlist</p>
+      <p>Cart</p>
+      <p>Codice di Combo</p>
+    </div>
+    
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="dashboard.js"></script>
   </body>
 </html>
