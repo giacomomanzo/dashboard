@@ -7,8 +7,7 @@ const loadCards = () => {
       .then((res) => displayProducts(res))
       .then((res) => {
         const swiper = new Swiper(".mySwiper", {
-          slidesPerView: 2.5,
-          spaceBetween: 20,
+          slidesPerView: 2.3,
           pagination: {
             el: ".slider-pagination",
             clickable: true,
@@ -24,7 +23,7 @@ const displayProducts = (items) => {
   const htmlString = items
     .map((item) => {
       return `
-          <div class="swiper-slide blur" role="group">
+          <div class="swiper-slide blur">
         <div class="mini-card">
           <p class="duration">12.36 min</p>
           <img src="images/elements-icon-podcast.svg" class="podcast" />
